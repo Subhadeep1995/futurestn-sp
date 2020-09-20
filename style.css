@@ -1,3 +1,14 @@
 section {
     margin: 200px 0;
 }
+
+.gc {
+    height: 300px;
+    width: 300px;
+    /* background-color: aliceblue; */
+}
+
+.gc img {
+    max-height: 200px;
+    margin: 50px;
+}

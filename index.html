@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>FutureStation LLP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <title>FutureStation - Home</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -54,9 +56,10 @@
         </h2>
 
         <div class="container">
+          
             <div class="services_flex d-md-flex justify-content-between my-5">
                 <div class="card my-5 mx-auto" style="max-width: 20rem;">
-                    <img src="./credible-reporting.jpg" class="card-img-top" alt="...">
+                    <img src="./credible-reporting.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Credible Reporting</h5>
                       <p class="card-text">We support our clients in developing credible material disclosures. Sustainability and ESG related disclosures are not yet mandatory in most countries. We help our clients develop only those reports and disclosures that have a material business case. </p>
@@ -86,6 +89,31 @@
           
       </section>
 
+      <section id="clients">
+
+
+        <h2 class="text-center">
+          Our Clients
+        </h2>
+        <div class="container">
+          <div class="glider-contain">
+            <div class="glider">
+              <div class="gc"><img src="clients/1200px-Tata_logo.svg.png" alt=""></div>
+              <div class="gc"><img src="clients/1435833592-8835.jpg" alt=""></div>
+              <div class="gc"><img src="clients/Assam_State_Electricity_Board_logo.jpg" alt=""></div>
+              <div class="gc"><img src="clients/cugMEI-m.jpg" alt=""></div>
+              <div class="gc"><img src="clients/download (1).png" alt=""></div>
+              <div class="gc"><img src="clients/download.png" alt=""></div>
+              <div class="gc"><img src="clients/srei-squarelogo-1574379502829.png" alt=""></div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+          </div>
+        </div>
+      </section>
+
       <section id="contact">
           <h2 class="text-center my-5">Let's start the conversation...</h2>
           <div class="container">
@@ -112,13 +140,27 @@
       </section>
 
       <footer>
-          <div class="text-center py-3 border-top">&copy; Copyright FutureStation LLP 2020</div>
+          <div class="text-center py-3 border-top">&copy; Copyright Futurestation Advisors LLP 2020</div>
       </footer>
     
 
-
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+   <script>
+     new Glider(document.querySelector('.glider'), {
+      slidesToShow: 3.5,
+      slidesToScroll: 2,
+      draggable: true,
+      dots: '.dots',
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+   </script>
 </body>
 </html>
