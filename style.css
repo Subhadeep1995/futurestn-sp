@@ -5,10 +5,10 @@ section {
 .gc {
     height: 300px;
     width: 300px;
-    /* background-color: aliceblue; */
 }
 
 .gc img {
     max-height: 200px;
+    max-width: 200px;
     margin: 50px;
 }
