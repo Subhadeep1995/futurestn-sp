@@ -5,10 +5,12 @@ section {
 .gc {
     height: 300px;
     width: 300px;
+    margin: 0 10px;
 }
 
 .gc img {
     max-height: 200px;
     max-width: 200px;
     margin: 50px;
+    width: 100%;
 }
