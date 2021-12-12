@@ -16,8 +16,9 @@ section {
 }
 
 .team {
-  margin: 20px 20%;
-  padding: 50px;
-  border: 1px skyblue solid;
+  width: 600px;
+  padding: 50px 0;
+  /* border: 1px skyblue solid; */
   border-radius: 3px;
+  box-shadow: 5px 10px 10px #888888;
 }
