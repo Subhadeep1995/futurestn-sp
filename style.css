@@ -16,9 +16,45 @@ section {
 }
 
 .team {
-  width: 600px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.team h3 {
+  font-size: ;
+}
+
+.member {
+  padding: 5px;
+}
+
+.member img {
+  border-radius: 50%;
+}
+
+.member-detail {
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 1px 1px 15px #c2c2c2;
+}
+
+.member-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 50px 0;
-  /* border: 1px skyblue solid; */
-  border-radius: 3px;
-  box-shadow: 5px 10px 10px #888888;
+}
+
+.member-pic img {
+  border-radius: 50%;
+}
+
+.member-description {
+  padding: 50px;
+}
+
+.member-description li {
+  margin-left: 0;
 }
